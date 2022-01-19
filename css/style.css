@@ -246,3 +246,219 @@ a:link:hover{
     margin-top: 40px;
     margin-bottom: 100px;
 }
+.smart{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.smatr_box{
+    /* outline: 1px solid red; */
+    width: 33.33%;
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 500ms ease;
+    background-image: url(../img/portfolio1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-transform: uppercase;
+    font-size: 1.875rem;
+    font-weight: 400;
+    color:transparent;
+}
+
+.smatr_box:hover{
+    background-image: linear-gradient(0deg, rgba(255,165,77,1), rgba(255,165,77,1));
+    color:white;
+    
+}
+.s_b2{
+    background-image: url(../img/portfolio2.jpg);
+}
+.s_b3{
+    background-image: url(../img/portfolio3.jpg);
+}
+.s_b4{
+    background-image: url(../img/portfolio4.jpg);
+    background-size: cover;
+}
+.s_b5{
+    background-image: url(../img/portfolio5.jpg);
+}
+.s_b6{
+    background-image: url(../img/portfolio6.jpg);
+}
+.s_b7{
+    background-image: url(../img/portfolio7.jpg);
+}
+.s_b8{
+    background-image: url(../img/portfolio8.jpg);
+}
+.s_b9{
+    background-image: url(../img/portfolio9.jpg);
+    background-size: cover;
+}
+.info{
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    /* outline: 1px solid red; */
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+.btn_more{
+    margin: 0;
+    margin-bottom: 25px;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #ff942c !important;
+    padding: 20px 30px;
+    line-height: 2px;
+    /* border: 1px solid red; */
+}
+.btn_more:hover{
+    background-color: #ce7e2e !important;
+}
+.big_box{
+    /* outline: 1px solid red; */
+    width: 100%;
+    height: 500px;
+    display: flex;
+    /* margin-bottom: 30px; */
+    margin-top: 80px;
+}
+.big_left{
+    width: 50%;
+    height: 100%;
+    /* outline: 1px solid red; */
+}
+.big_right{
+    width: 50%;
+    height: 100%;
+    /* outline: 1px solid red; */
+
+}
+.left_name{
+    font-size: 2.25rem;
+    font-weight: 700;
+    width: 430px;
+}
+.left_name_span{
+    font-weight: 300;
+}
+.left_coment{
+    line-height: 2;
+    height: 160px;
+    width: 520px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.btn_left{
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #ff942c !important;
+    padding: 10px 45px;
+    line-height: 2px;
+    margin-top: 25px;
+}
+.btn_left:hover{
+    background-color: #ce7e2e !important;
+}
+.right_coment{
+    text-align: right;
+    line-height: 2;
+    height: 160px;
+    width: 520px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-top: 250px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-image:  linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/footer.jpg);
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fotter_coment{
+    width: 670px;
+    font-size: 1.30rem;
+    text-align: center;
+    color: #ffffff;
+
+}
+.foter_menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+
+}
+.foter_item{
+    padding: 20px;
+
+}
+.foter_link{
+    color: #ffffff !important;
+    font-size: 40px;
+}
+.foter_frep{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.foter_frep_link{
+    color: #ffffff !important;
+    border-bottom: 1px solid white;
+}
+.foter_frep_link:hover{
+    border: none;
+}
+.sample{
+    width: 100%;
+    height: 140px;
+    background-color: #1f203a;
+    display: flex;
+    align-items: center;
+}
+.sample_txt{
+    color: white;
+    width: 440px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.web{
+    width: 100%;
+    height: 100px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.web_txt{
+    color: white;
+}
+.web_txt a{
+    color: grey !important;
+    border-bottom: 1px solid grey;
+}
+.web_txt a:hover{
+    border: none;
+}
